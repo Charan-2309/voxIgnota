@@ -53,4 +53,4 @@ The application uses the **CameraX** library to access the camera feed. Each fra
 Contributions are welcome! Please feel free to submit a pull request or open an issue. But please credit the original authors.
 
 &nbsp;
-##### * This project is developed for educational purposes only [for my education purpose😁 - Collage project].
+##### * This project is developed for educational purposes only [for my education purpose - Collage project].
