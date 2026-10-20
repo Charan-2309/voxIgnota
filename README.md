@@ -25,6 +25,9 @@ The application uses the **CameraX** library to access the camera feed. Each fra
 *   **Room Persistence Library:** For storing translation history.
 *   **Material Components:** For UI elements.
 
+## 📥 Download the App
+[Click here to download the latest VoxIgnota APK](https://github.com/endacharan2309-commits/voxIgnota/releases/latest)
+
 ## ⚙️ Setup and Installation
 
 &nbsp; To build and run this project, follow these steps:
