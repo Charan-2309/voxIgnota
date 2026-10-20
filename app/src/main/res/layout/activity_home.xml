@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:background="@null"
+            android:adjustViewBounds="false"
+            android:layout_height="150dp"
+            android:onClick="goReport"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/voxlogo" />
+
+        <Button
+            android:id="@+id/signToTextBtn"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#E6E6FA"
+            android:text="Sign to Text"
+            android:textColor="@android:color/holo_purple"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/signToSpeechBtn"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#E6E6FA"
+            android:text="Sign to Speech"
+            android:textColor="@android:color/holo_purple"
+            android:background="@drawable/custom_button"/>
+
+        <Button
+            android:id="@+id/textToSignBtn"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#E6E6FA"
+            android:text="Text to Sign"
+            android:textColor="@android:color/holo_purple"
+            android:background="@drawable/custom_button"/>
+
+
+        <Button
+            android:id="@+id/speechToSignBtn"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="#E6E6FA"
+            android:text="Speech to Sign"
+            android:textColor="@android:color/holo_purple"
+            android:background="@drawable/custom_button"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/learnBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#E6E6FA"
+                android:text="Learn"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/historyBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#E6E6FA"
+                android:text="History"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
